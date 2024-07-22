@@ -1,0 +1,7 @@
+Lucette regular italic
+Roc Grotesk, Regular
+Satoshi Bold
+Satoshi Italic
+Satoshi Light
+Satoshi Medium
+Satoshi Regular

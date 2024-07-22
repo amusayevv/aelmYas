@@ -1,0 +1,135 @@
+.form__cnt {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1048px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 120px;
+}
+.form__title {
+    color: var(--color-secondary-grey0, #F2F2F2);
+    font-family: Satoshi;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 96px */
+    letter-spacing: -1.92px;
+}
+.form__title span {
+    color: var(--color-secondary-grey0, #F2F2F2);
+    font-family: Lucette;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -1.92px;
+}
+.form__cnt > .footer__contacts {
+    margin-top: 0;
+}
+.contact {
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 180px;
+}
+
+.container {
+    width: 100%;
+}
+
+.input__title {
+    color: var(--color-secondary-grey0, #F2F2F2);
+    font-family: Satoshi;
+    font-size: 25.128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 25.128px */
+    letter-spacing: -0.503px;
+}
+
+input {
+    color: var(--color-secondary-grey3, #F2F2F2);
+    font-family: Satoshi;
+    font-size: 25.128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 25.128px */
+    letter-spacing: -0.503px;
+    background: transparent;
+    border-bottom: 1.256px solid var(--color-secondary-grey3, #404040);
+    padding: 12px;
+    resize: none;
+}
+
+input[type="text"]
+{
+    font-family: Satoshi;
+    font-size: 25.128px;
+}
+
+.button__cnt > button {
+    background: transparent;
+    display: inline-flex;
+    padding: 2.693px 32.311px 13.463px 32.311px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.463px;
+    border-radius: 59.237px;
+    border: 1.346px solid var(--color-secondary-grey0, #F2F2F2);
+    color: var(--color-secondary-grey0, #F2F2F2);
+    font-family: Satoshi;
+    font-size: 48.467px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 48.467px */
+    letter-spacing: -0.969px;
+    width: 160px;   
+}
+
+.button__cnt {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.footer__copyright {
+    margin: 0;
+    /* padding-top: 72px; */
+}
+
+@media (max-width: 1000px) {
+    form {
+        padding-left: 0;
+    }
+    .button__cnt {
+        justify-content: center;
+    }
+
+    .button__cnt > button {
+        font-size: 26.6px;
+        width: 100px;
+        padding-top: 8px;
+    }
+    .form__title {
+        font-size: 36px;
+    }
+
+    .form__title span {
+        font-size: 40px;
+    }
+
+    .form__cnt {
+        gap: 64px;
+    }
+}

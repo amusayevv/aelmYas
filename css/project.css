@@ -153,10 +153,21 @@ body {
 
     .content__flex {
         display: block;
+        display: flex;
+        flex-direction: column; 
     }
 
     .content__flex > .content__img {
         height: auto;
+    }
+
+    .content__img.redecor {
+        height: auto;
+        width: 100%;
+    }
+
+    .concept__text {
+        padding-left: 24px;
     }
 }
 

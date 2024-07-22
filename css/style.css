@@ -651,6 +651,9 @@ footer {
 	.yasmina__img img {width: 100%;}
 	.featured__cards {grid-template-columns: 1fr;}
 	.footer__cnt {padding: 0 24px; max-width: 100%s;}
+	.circle{display: none;}
+	.circle.big{display: none;}
+	.expand{display: none;}
 }
 
 @media (max-width: 480px) {

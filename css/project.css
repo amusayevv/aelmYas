@@ -139,3 +139,75 @@ body {
 .project__cnt {
     width: 100%;
 }
+
+@media (max-width: 1200px) {
+    .main__text {
+        left: 24px;
+        font-size: 36px;
+    }
+
+    .description {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .content__flex {
+        display: block;
+    }
+
+    .content__flex > .content__img {
+        height: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .description__title {
+        font-size: 16px;
+    }
+
+    .description__skills {
+        font-size: 16px;
+    }
+
+    .description__long {
+        font-size: 20px;
+        max-width: 228px;
+        text-align: left;
+        margin-left: auto;
+    }
+
+    .description_bottom {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    .image__flex {
+        padding-right: 0;
+        padding-left: 0;
+        gap: 48px;
+    }
+
+    .content__img {
+        height: 460px;
+        object-fit: cover;
+    }
+
+    .content__img.poster__img {
+        height: auto;
+        width: 100%;
+    }
+
+    .content__flex.posters {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .viewProjects.poster {
+        width: 90%;
+        font-size: 26px;
+        padding-top: 10px;
+    }
+}
